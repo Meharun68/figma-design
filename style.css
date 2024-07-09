@@ -1,0 +1,250 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* roboto font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* --------------------global css-------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+       overflow-x: hidden;
+}
+
+ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* -------------------header css start-------------------- */
+.navbar{
+    background-color: #F0FFF0 !important;
+    
+}
+ .navbar-brand img{
+    width: 198.07px;
+}
+.navbar .nav-item {
+    margin-right: 25px;
+}
+
+.navbar .nav-item .nav-link{
+color:black;
+}
+
+.s-btn{
+ background-color: #21B573;
+padding: 12px 28px ;
+border: 1px solid #21B573;
+border-radius: 33px;
+font-family: roboto;
+padding: 0px 16px ;
+  
+}
+.s-btn2{
+    color: white !important;
+}
+
+/*  ---------------------banner section css code start */
+.banner-section{
+    width: 100%;
+    background-color: #F0FFF0;
+    height: 500px;
+
+}
+.banner-section img{
+   width: 554px;
+   padding-top: 30px;
+
+  
+}
+.content{
+    padding-top: 80px;
+}
+
+
+
+.sub-title{
+    color: #FD511A;
+    line-height: 24px;
+    width: 189px;
+    height: 24px;
+ 
+}
+.st-h1{
+    color:black;
+    font-family: poppins;
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700px;
+    width: 400px;
+}
+
+.st-h1 span{
+    color:rgb(63, 126, 57);
+    font-family: poppins;
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700px;
+} 
+
+.paragraph{
+    width: 403px;
+    line-height: 36px;
+}
+.banner-section .content .btn-success{
+    background: #21B573;
+    ;
+    border: 1px solid #000000;
+    padding: 12px 36px;
+    border-radius: 33px;
+    font-family: roboto;
+    margin-top: 45px;
+    color: white;
+}
+/* -------------------------box-container----------------- */
+
+.box-sec{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 50px;
+    
+  
+   
+}
+.box-inner{
+    width: 270px;
+    background: #F8FFFB;
+ 
+   
+  
+}
+
+
+.box-sec .box-inner{
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 10px;
+    transition: 0.7s;
+    margin: 0px 10px;
+
+}
+.box-sec .box-inner:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    transition: 0.7s;
+}
+.box-sec .box-inner img{
+ width: 66px;
+height: 85px;
+margin-bottom: 25px;
+
+}
+.box-sec .box-inner h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #413960;
+
+ 
+
+}
+.box-sec .box-inner h2{
+    color: #585859;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+/* -----------------------Fourth section--------------------------- */
+.feature{
+    width: 100%;
+}
+.feature-inner{
+    width: 370px;
+    height: 483px;
+    border-radius: 18px 0px 0px 0px;
+    background-color: #FFFFFF;
+
+
+
+}
+.feature-inner img{
+    width: 331px;
+height: 234px;
+border-radius: 11px 0px 0px 0px;
+
+
+}
+.feature-inner h1{
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+}
+.feature-inner h2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#585859;
+    margin-top: 5px;
+    
+    
+    }
+    .feature .feature-inner .btn-success{
+padding: 8px 28px;
+border: 1px solid;
+border-radius: 33px ;
+background: #21B573;
+
+
+    }
+    .feature .feature-inner img1{
+        width: 14px;
+height: 14px;
+
+
+
+    }
+    .btn-primary{
+        background: #21B573;
+        border: 1px solid  #21B573 ;
+        border-radius: 33px;
+
+    }
+    .card{
+        width: 370px;
+height: 483px;
+box-shadow: 0px 10px 40px 0px #0000001A;
+transition: 0.7s;
+
+
+
+    }
+ 
+    .calendar-outline{
+        width: 24px;
+height: 24px;
+
+padding: 2px 3px ;
+
+
+    }
+ .people-outline{
+    width: 24px;
+    height: 24px;
+    
+    padding: 2px 3px ;
+ }
